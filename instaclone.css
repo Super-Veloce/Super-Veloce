@@ -1,0 +1,90 @@
+html {
+    box-sizing: border-box;
+}
+
+.sidebar:before {
+    box-sizing: inherit;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 0px, 0px;
+    margin: auto;
+}
+
+.content {
+    display: flex;
+    align-content: space-between;
+}
+
+.instalogo {
+    display: flex;
+    max-width: 50%;
+    padding: 10px 0px 0px 10px;
+}
+
+header ul {
+    list-style: none;
+    padding: 0%;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 40px;   
+}
+
+header li {
+    font-size: 160%;
+    padding-top: 20px;
+}
+
+.sidebar {
+    min-width: 12%;
+    max-width: 15%;
+    height: 100vh;
+    border-right: 2px solid black;
+    }
+
+.morebutton {
+    padding: 300px 0px 20px 0px;
+}
+
+.squarelogo {
+    width: 198px;
+    height: 198px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.pinfo {   
+      width: 100%;
+      height: 198px;
+      display: flex;
+      padding: 20px 600px 20px 600px;
+      justify-items: space-around;
+}
+
+
+.listprop ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 600px;
+    display: inline-flex;
+    list-style: none;
+    padding-left: 0%;
+}
+
+.listp2 {
+    padding-top: 20px;
+}
+
